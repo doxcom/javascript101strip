@@ -31,7 +31,7 @@ let myCurrentJob = 'Programmer';
 
 
 
-
+console.log(myFirstJob);
 
 
 
