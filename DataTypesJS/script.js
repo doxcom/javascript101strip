@@ -65,3 +65,14 @@ console.log(typeof year);
 //should return null but is return object
 //is an internal bug in js
 console.log(typeof null);
+
+
+//assignment
+
+let isIsland = false;
+let language;
+
+console.log(typeof isIsland);
+console.log(typeof population_Num);
+console.log(typeof countryName);
+console.log(typeof language);
