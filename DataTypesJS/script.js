@@ -76,3 +76,6 @@ console.log(typeof isIsland);
 console.log(typeof population_Num);
 console.log(typeof countryName);
 console.log(typeof language);
+
+
+//let const and var
