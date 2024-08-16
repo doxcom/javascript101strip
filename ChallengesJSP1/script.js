@@ -47,3 +47,14 @@ if (dolphAvg >= 100 && dolphAvg > koalaAvg) {
 } else if (koalaAvg === dolphAvg) {
     console.log("IS A DRAW");
 }
+
+
+//challenge #4
+
+let tip_a = .15;
+let tip_b = .20;
+let bill = 250;
+let total = 0;
+
+bill >= 50 && bill <= 300 ? console.log("The bill was $" + bill + ",the tip was $" + (total = bill * tip_a) + ",and the total value $" + (bill + total)) : console.log("The bill was $" + bill + ",the tip was $" + (total = bill * tip_b) + ",and the total value $" + (bill + total));
+
