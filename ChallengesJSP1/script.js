@@ -15,17 +15,22 @@ let johnHeight = 1.76;
 
 let markHigherBMI = true;
 
+
 let bmiMark = marksMass / markHeight ** 2;
 let bmiJohn = johnMass / johnHeight ** 2;
+
+const markHigher = bmiMark > bmiJohn;
+
 console.log(bmiMark);
 
 console.log("MARK BMI " + bmiMark);
 console.log("JOHN BMI " + bmiJohn);
 
+
 if (bmiJohn > bmiMark) {
-    console.log("Johns BMI is higher than Mark");
+    console.log("Johns BMI is higher than Mark", markHigher);
 } else {
-    console.log("Marks BMI is higher than Johns");
+    console.log("Marks BMI is higher than Johns", markHigher);
 }
 
 let dolphScoreA = 97, dolphScoreB = 112, dolphScoreC = 101;
