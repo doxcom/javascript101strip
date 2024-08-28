@@ -48,3 +48,37 @@ console.log('10' - '4' - '3' - 2 + '5'); // 15
 
 
 
+
+
+
+
+//true and false values
+// 5 falsy values:
+// 0, '', undefined, null, Nan
+//this values will be converted to false when we attemp to covert it to a boolean
+
+//anything else will be convert to true value
+
+console.log(Boolean(0)); //false
+console.log(Boolean(undefined)); //false
+console.log(Boolean('Jonas')); //true
+console.log(Boolean({})); //empty object {} true
+console.log(Boolean('')); //false
+
+
+const money = 0;
+
+if (money) { //JS try to coerce any value into a boolean, so that the value of money is zero and is take it as a falsy
+    console.log("Dont spend it all"); //if money value is true  will print this
+} else {
+    console.log("You should get a job"); //if is false, this
+}
+
+let height; //is undefined because is not have a value
+if (height) {
+    console.log("Yay , Heigh is defined");
+} else {
+    console.log("Heigh is UNdefined");
+}
+
+
