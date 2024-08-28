@@ -81,4 +81,34 @@ if (height) {
     console.log("Heigh is UNdefined");
 }
 
+//EQUALITY operators == and ===
+
+const age = 18; //= is for assignment
+if (age === 18) console.log('You are an adult');
+//triple === is compare, is not doing type coercion
+
+//doble == does type coercion
+
+console.log('18' == 18); //true, '18' was converted to a number, == is loose
+
+//so triple === does not apply type coercion
+
+console.log('18' === 18);// false, bc is looking '18' as string === is strict, for good practice use this one, good rule
+
+const favnumber = prompt("Whats is your favorite Number?");
+console.log(typeof favnumber);
+
+if (favnumber == 23) { //coercion will apply here to convert string from the prompt to a number
+    console.log('Cool  23 is a good number');
+}
+
+//so if we  use ===, need to apply the Number function
+
+const favNumber2 = Number(prompt("Whats your fav number?"));
+if (favNumber2 === 33) { // 33 === 33
+    console.log("cool , 23 is an amazing numb");
+}
+
+//with doble == is strict, instead of != like other languages( java ,c++)
+if (favNumber2 !== 23) console.log("why not 23?");
 
