@@ -112,3 +112,28 @@ if (favNumber2 === 33) { // 33 === 33
 //with doble == is strict, instead of != like other languages( java ,c++)
 if (favNumber2 !== 23) console.log("why not 23?");
 
+
+
+//LOGICAL OPERATORS
+
+const hasDriversLicense = true; //A
+const hasGoodVision = true // B
+
+console.log(hasDriversLicense && hasGoodVision); //true
+
+console.log(hasDriversLicense || hasGoodVision); //true
+
+
+const shouldDrive = hasDriversLicense && hasGoodVision;
+//true is when true and true
+if (shouldDrive) {
+    console.log('Sara is able to Drive!');
+} else {
+    console.log("someone else should be drive..");
+}
+
+const isTired = true;
+
+console.log(hasDriversLicense || hasGoodVision || isTired); //true
+
+
