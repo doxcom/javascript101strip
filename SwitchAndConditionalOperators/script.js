@@ -1,4 +1,7 @@
+//Strict mode on the begging on your script, to write secure code
+//to avoid accidentall errors in code
 
+'use strict';
 
 const day = 'wednesday';
 
@@ -47,3 +50,13 @@ const tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
 
 console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`);
 
+
+
+//Strict mode practice
+//strict mode also prevent to use reserved words
+let hasDriversLicense = false;
+const passTest = true;
+
+if (passTest) hasDriversLicense = true;
+
+if (hasDriversLicense) console.log("I can Drive");
