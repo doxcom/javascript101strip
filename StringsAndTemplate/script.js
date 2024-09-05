@@ -49,7 +49,9 @@ let century;
 if (birthYear_ <= 2000) {
     century = 20;
 } else {
+
     century = 21;
 }
 
 console.log(`Century is : ${century}`);
+
