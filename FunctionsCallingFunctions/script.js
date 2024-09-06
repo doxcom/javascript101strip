@@ -89,6 +89,7 @@ const yearsUntilRetirement = function (birthYeah, firstName) {
     const retirement = 65 - age;
 
     if (retirement > 0) {
+        console.log("major to zero");
         return `${firstName} retires in ${retirement} years`;
     } else {
         return -1;
