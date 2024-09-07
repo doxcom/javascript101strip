@@ -122,3 +122,86 @@ const checkWinner = function (avgDolphins, avgKoalas) {
 
 checkWinner(scoreDolphins, scoreKoalas);
 
+
+//Arrays
+
+const friend1 = 'Mike';
+const friend2 = 'Steve';
+
+
+const friends = ['aldo', 'stevie', 'Manu'];
+
+console.log(friends);
+
+const yearsA = new Array(23123, 3243, 343, 3434);
+
+console.log(yearsA);
+
+
+console.log(friends[0]); //get the  first position
+
+console.log(friends.length);
+
+//to get the minor element
+
+console.log(friends[friends.length - 1]);
+
+//mutate array
+
+friends[2] = 'Jay';
+console.log(friends);
+
+const aldo = ['Aldo', 'Perez', 1990, 'programmer'];
+console.log(aldo);
+
+//Array Exercise
+
+const calcAge = function (birthYeah) {
+    return 2037 - birthYeah;
+}
+
+const years = [1990, 1967, 2001, 2006];
+
+const age1 = calcAge(years[0]);
+const age2 = calcAge(years[1]);
+const age3 = calcAge(years[years.length - 1]);
+console.log(age1, age2, age3);
+
+const ages = [calcAge(years[0]), calcAge(years[1]), calcAge(years[years.length - 1])];
+
+console.log(ages);
+
+//BASIC OPERATIONS ARRAYS
+
+const friends2 = ['aldo', 'alfredo', 'jordan'];
+
+const newLength = friends2.push('Mike');// add element in the end
+
+console.log(friends2);
+
+console.log(newLength);
+
+friends2.unshift('Morgan:'); //add element into beggining of array
+
+console.log(friends2);
+
+//remove elements
+
+friends2.pop(); //remove last element of the array
+console.log(friends2);
+
+friends2.shift();//remove first elemento of array
+console.log(friends2);
+
+
+console.log(friends2.indexOf('alfredo')); //return a number
+
+console.log(friends2.includes('Ferb')); //return false or true if is on the array
+
+
+if (friends2.includes('aldo')) {
+    console.log('you have a guitar on rehearsal');
+}
+
+
+
