@@ -76,10 +76,13 @@ const mexican = {
         return 2024 - birthYeah  // any function that is attach to an object is called a method
     } */
     calcAge: function () {
-        return 2024 - this.birthYeah
+
+        this.age = 2024 - this.birthYeah;
+        return this.age;
+    },
+    getSummary: function () {
+
     }
-
-
 };
 
 //console.log(mexican.calcAge(1991));
@@ -88,8 +91,46 @@ const mexican = {
 //console.log(mexican['calcAge'](1990));
 
 //using "this" inside the function
-console.log(mexican.calcAge()); //this point to mexican object
+console.log(mexican.age); //this point to mexican object
 
+
+
+//Challenge OBJECT
+
+const mark = {
+    fullName: 'Mark Miller',
+    mass: 78,
+    height: 1.69,
+    calcBMI: function () {
+        this.bmi = this.mass / this.height ** 2;
+        return this.bmi;
+    }
+};
+
+const john = {
+    fullName: 'John Smith',
+    mass: 92,
+    height: 1.95,
+    calcBMI: function () {
+        this.bmi = this.mass / this.height ** 2;
+        return this.bmi;
+    }
+};
+
+mark.calcBMI();
+john.calcBMI();
+
+console.log(mark.bmi, john.bmi);
+
+if (mark.bmi > john.bmi) {
+    console.log(`${mark.fullName}'s BMI(${mark.bmi})
+        is higher than ${john.fullName}'s BMI (${john.bmi})
+        `)
+} else if (john.bmi > mark.bmi) {
+    console.log(`${john.fullName}'s BMI(${john.bmi})
+        is higher than ${mark.fullName}'s BMI (${mark.bmi})
+        `)
+}
 
 
 
