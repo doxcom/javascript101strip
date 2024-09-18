@@ -80,3 +80,24 @@ for (let excercise = 1; excercise < 4; excercise++) {
         console.log(`Excercise ${excercise}: Lifting weight repetition ${rep} `);
     }
 }
+
+//While Loop
+let repwhile = 1;
+while (repwhile <= 10) {
+    console.log("WHILE loop", repwhile);
+    repwhile++;
+}
+
+//samples where is not depending on a counter
+
+//rolling a dice until find 6
+
+let dice = Math.trunc(Math.random() * 6) + 1;//will create a number between 0 and 1 and multiply by 6, a decimal number
+//math trunc will chunk to integer, the +1 will make sure to complement the random output if this is 0
+//console.log(dice);
+
+while (dice !== 6) {
+    console.log("You rolled a ", dice);
+    dice = Math.trunc(Math.random() * 6) + 1;
+    if (dice === 6) console.log("loop is about to end..");
+}
