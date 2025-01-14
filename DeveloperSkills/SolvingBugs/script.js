@@ -8,7 +8,7 @@ const measureKelvin = function(){
     const measurement = {
         type: 'temp',
         unit: 'celsius',
-        value: Number(prompt('Degress celsius:')) //always return a string 
+  //      value: Number(prompt('Degress celsius:')) //always return a string 
     }
    //or noob
   // console.log(measurement.value);
@@ -32,7 +32,7 @@ function analyzeWorkweek(dailyHours){
 
     //Calculate average daily hours, rounded to one decimal place
 
-    const averageHours = Math.round((totalHours/dailyHours.lenght)*10)/10;
+    const averageHours = Math.round((totalHours/dailyHours.length)*10)/10;
 
     //Find the day with the most hours worked
 
@@ -40,7 +40,7 @@ function analyzeWorkweek(dailyHours){
     const maxDay = dailyHours.indexOf(maxHours);
 
     //count the number of days worked
-    const daysWorked = dailyHours.filter(hours => hours > 0).lenght;
+    const daysWorked = dailyHours.filter(hours => hours > 0).length;
 
     //check if the week was full-time (35 hours or so)
     const isFullTime = totalHours >= 35;
