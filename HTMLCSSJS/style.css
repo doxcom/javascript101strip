@@ -1,0 +1,18 @@
+body {
+    background-color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+  }
+
+  h1{
+    font-size: 40px;
+  }
+
+  .first{ 
+    color:bisque;
+  }
+
+  #your-name{
+    background-color:darkgoldenrod;
+    border: 5px solid #be0707;
+  }
