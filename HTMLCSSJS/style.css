@@ -1,18 +1,50 @@
+*{  /* asterisk  selector we can select all elements on the page*/
+
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 body {
-    background-color: green;
+    background-color: darkgreen;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
+    padding: 50px;
+    
   }
 
+  p{
+    color: antiquewhite;
+    margin-bottom: 10px;
+  }
+
+  a{
+    color: aliceblue;
+  }
   h1{
     font-size: 40px;
+    color: antiquewhite;
+    margin-bottom: 25px;
+
+  }
+
+  h2{
+    margin-bottom: 20px;
+    text-align: center;
   }
 
   .first{ 
-    color:bisque;
+    color:rgb(99, 60, 13);
   }
 
   #your-name{
-    background-color:darkgoldenrod;
+    background-color:aquamarine;
     border: 5px solid #be0707;
+    text-align: center;
+    padding: 15px;
+    margin-top: 10px;
+
   }
+
