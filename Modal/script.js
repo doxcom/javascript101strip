@@ -31,3 +31,13 @@ for(let i = 0; i < btnsOpenModal.length; i++)
 //for keyboard events
 
 
+document.addEventListener('keydown', function(event){
+
+    if(event.key==='Escape' && !modal.classList.contains('hidden')) {
+        
+            closeModal(); //call as a function
+        
+    }
+
+
+});
