@@ -23,6 +23,7 @@ const btnHold = document.querySelector('.btn--hold');
 
 btnNew.addEventListener('click', function(){
     window.location.reload(); //https://sentry.io/answers/how-do-i-refresh-a-page-using-javascript/
+    
 });
 
 //set conditions for initial score
