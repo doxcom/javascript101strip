@@ -1,5 +1,6 @@
 //we will use strict mode in all scripts
 //control s use prettier to format the code
+/*
 'use strict';
 
 function calcAge(birthYear){ //calcAge function is defined in a global scope bc is on top level code
@@ -27,3 +28,22 @@ function calcAge(birthYear){ //calcAge function is defined in a global scope bc 
 //even if this variable was declared after calcAge function
 const firstName = 'Jonas';
 calcAge(1991);
+*/
+
+
+
+//this is a whole object into global scope
+const jonas = {
+    firstName: 'Aldo',
+    year: 1991,
+    calcAge: function(){
+        console.log(this);
+        console.log(2037-this.year);
+    },
+
+    greet: () => console.log(`Hey ${this.firstName}`),
+};
+
+jonas.greet(); //will output Hey undefined
+
+jonas.calcAge(1990);//output: 46
