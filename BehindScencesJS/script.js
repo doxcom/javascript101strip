@@ -47,3 +47,33 @@ const jonas = {
 jonas.greet(); //will output Hey undefined
 
 jonas.calcAge(1990);//output: 46
+
+
+//Shallow and Deep Copy
+
+const jessica = {
+    firstName: 'Jessica',
+    lastName: 'Williams',
+    age: 27,
+    family: ['Alice','Bob'],
+};
+
+//Shallow copy
+
+const jessicaCopy={ ...jessica };
+jessicaCopy.lastName = 'Davis';
+
+//jessicaCopy.family.push('Mary');
+//jessicaCopy.family.push('John');
+
+//console.log('Before:', jessica);
+//console.log('After:', jessicaCopy);
+
+
+//Deep copy/clone
+const jessicaClone = structuredClone(jessica);
+jessicaClone.family.push('Mary');
+jessicaClone.family.push('John');
+
+console.log('Before Deep Clone:', jessica);
+console.log('After Deep Clone:',jessicaClone);
