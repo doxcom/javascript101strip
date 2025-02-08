@@ -74,6 +74,7 @@ jessicaCopy.lastName = 'Davis';
 const jessicaClone = structuredClone(jessica);
 jessicaClone.family.push('Mary');
 jessicaClone.family.push('John');
+jessicaClone.family.pop('Mary'); //try to pop out
 
 console.log('Before Deep Clone:', jessica);
 console.log('After Deep Clone:',jessicaClone);
