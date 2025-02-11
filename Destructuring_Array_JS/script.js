@@ -40,3 +40,21 @@ add(2,4);
 add(2,4,5,6,3,7,6);
 add(5,3,6,8,90,200);
 
+
+//short-circuiting
+//will return true value between n values
+
+console.log(3 || 'Jonas'); //3
+console.log('' || 'Jonas'); //Jonas
+console.log(true || 0); //true
+console.log(undefined || null); //null
+
+console.log('---AND OPERATOR-----');
+
+//if first of element is false will output first, if not will output second
+
+console.log(0 && 'Jonas'); //0
+console.log(7 && 'Jonas'); //Jonas
+
+
+
