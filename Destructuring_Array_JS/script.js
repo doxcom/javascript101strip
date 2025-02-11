@@ -8,6 +8,35 @@ const restaurant = {
     starterMenu:['Focaccia','Bruschetta','Garlic Bread','Caprese Salad'],
     mainMenu:['Pizza','Pasta','Risotto'],
 };
-
+/*
 const [first, , second] = restaurant.categories;
-console.log(first,second);
+console.log(first,second);*/
+
+const arr = [1,2,...[3,4]];//spread operator "..." on right side of =
+//rest, because of LEFT side of = ,"..." symbol take rest of elements as a pattern
+
+const [a,b,... others] = [1,2,3,4,5];//
+
+console.log(a,b, others);
+
+const [pizza, , risotto, ...otherFood] = [...restaurant.mainMenu,...restaurant.starterMenu,];
+
+console.log(pizza,risotto,otherFood);
+
+
+//objects
+
+//Rest syntax take multiple numbers to pack into one array( called "numbers")
+//with spread operator "..."
+
+
+const add = function(...numbers){
+    let sum=0;
+    for(let i = 0; i<numbers.length; i++) sum+=numbers[i];
+    console.log(sum);
+}
+
+add(2,4);
+add(2,4,5,6,3,7,6);
+add(5,3,6,8,90,200);
+
