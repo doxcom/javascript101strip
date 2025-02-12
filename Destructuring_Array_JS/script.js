@@ -87,3 +87,52 @@ rest2.numGuests ??= 10;
 console.log(rest1);
 console.log(rest2);
 
+
+//Challenge
+
+const game = {
+    team1: 'Bayern Munich',
+    team2: 'Borrussia Dortmund',
+
+    players:[
+        [
+        'Neuer',
+        'Parbard',
+        'Martinez',
+        'Alaba',
+        'Davies',
+        'Kimmich',
+        'Goretzka',
+        'Coman',
+        'Muller',
+        'Gnarby',
+        'Lewadonski',
+    ],
+    
+    [
+      'Burki',
+      'Schulz',
+      'Hummels',
+      'Akanji',
+      'Hakimi',
+      'Weigl',
+      'Witsel',
+       'hazard',
+       'Brandt',
+       'Sancho',
+       'Gotze',
+    ],
+],
+
+score: '4:0',
+scored:['Lewadonski', 'Gnarby', 'Lewadonski','Hummels'],
+date: 'Nov 9th, 2037',
+odd:{
+  team1: 1.33,
+  x:3.25,
+  team2: 6.5,
+  },
+};
+
+const [players1, players2] = game.players;
+console.log(players1,players2);
