@@ -8,10 +8,11 @@ const restaurant = {
     starterMenu:['Focaccia','Bruschetta','Garlic Bread','Caprese Salad'],
     mainMenu:['Pizza','Pasta','Risotto'],
 };
+
 /*
 const [first, , second] = restaurant.categories;
 console.log(first,second);*/
-
+/*
 const arr = [1,2,...[3,4]];//spread operator "..." on right side of =
 //rest, because of LEFT side of = ,"..." symbol take rest of elements as a pattern
 
@@ -22,14 +23,14 @@ console.log(a,b, others);
 const [pizza, , risotto, ...otherFood] = [...restaurant.mainMenu,...restaurant.starterMenu,];
 
 console.log(pizza,risotto,otherFood);
-
+*/
 
 //objects
 
 //Rest syntax take multiple numbers to pack into one array( called "numbers")
 //with spread operator "..."
 
-
+/*
 const add = function(...numbers){
     let sum=0;
     for(let i = 0; i<numbers.length; i++) sum+=numbers[i];
@@ -39,7 +40,7 @@ const add = function(...numbers){
 add(2,4);
 add(2,4,5,6,3,7,6);
 add(5,3,6,8,90,200);
-
+*/
 
 //short-circuiting
 //will return true value between n values
@@ -127,7 +128,7 @@ const game = {
 score: '4:0',
 scored:['Lewadonski', 'Gnarby', 'Lewadonski','Hummels'],
 date: 'Nov 9th, 2037',
-odd:{
+odds:{
   team1: 1.33,
   x:3.25,
   team2: 6.5,
@@ -139,5 +140,42 @@ console.log(players1,players2);
 
 //2.
 //destructuring
+console.log("Destructuring");
 const [gk, ...fieldPlayers] = players1;
 console.log(gk,fieldPlayers);
+
+//3.
+
+const allPlayers = [...players1, ...players2];
+console.log(allPlayers);
+
+//4.
+
+const players1Final = [...players1, 'Thiago', 'Coutinho','Periscic'];
+
+//5,.
+const {odds: {team1,x:draw, team2}} = game;
+
+console.log(team1, draw, team2);
+
+//6.-
+const printGoals = function(...players){
+    console.log(players);
+    console.log(`${players.length} goals were scored`);
+};
+
+//printGoals('Davies','Muller','Lewandowski','Kimmich');
+//printGoals('Davies','Muller');
+
+printGoals(...game.scored);
+
+
+//7. Team likely to win
+team1 < team2 && console.log('Team 1 is more likley to win');
+
+//loop
+
+const menu = [...restaurant.starterMenu, ... restaurant.mainMenu];
+
+for (const item of menu) console.log(item);
+
