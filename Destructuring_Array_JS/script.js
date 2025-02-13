@@ -43,7 +43,7 @@ add(5,3,6,8,90,200);
 
 //short-circuiting
 //will return true value between n values
-
+/*
 console.log(3 || 'Jonas'); //3
 console.log('' || 'Jonas'); //Jonas
 console.log(true || 0); //true
@@ -56,7 +56,7 @@ console.log('---AND OPERATOR-----');
 console.log(0 && 'Jonas'); //0
 console.log(7 && 'Jonas'); //Jonas
 
-
+*/
 //Logical Assignment operators
 
 const rest1 ={
@@ -84,8 +84,8 @@ rest1.numGuests ??= 10;
 rest2.numGuests ??= 10;
 
 
-console.log(rest1);
-console.log(rest2);
+//console.log(rest1);
+//console.log(rest2);
 
 
 //Challenge
@@ -136,3 +136,8 @@ odd:{
 
 const [players1, players2] = game.players;
 console.log(players1,players2);
+
+//2.
+//destructuring
+const [gk, ...fieldPlayers] = players1;
+console.log(gk,fieldPlayers);
