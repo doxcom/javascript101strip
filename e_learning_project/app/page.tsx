@@ -1,9 +1,13 @@
 //tutorial https://www.youtube.com/watch?v=34w8xP_cvqg
-
+import Home from "@/components/Home/Home";
 import React from "react";
 
 const page = () => {
-  return <div className="text-6x1 text-red-700">HomePage</div>;
+  return (
+    <div>
+      <Home />
+    </div>
+  );
 };
 
 export default page;
