@@ -19,6 +19,15 @@ const Nav = () => {
             );
           })}
         </div>
+        {/*Buttons*/}
+        <div className="flex items-center space-x-4">
+          <button
+            className="md:px-10 md:py-2 px-8 py-1.5 text-white font-semibold text-base bg-pink-700 
+          hover:bg-pink-900 transition-all duration-200 rounded-lg"
+          >
+            Signup Now
+          </button>
+        </div>
       </div>
     </div>
   );
