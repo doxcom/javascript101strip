@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaArrowRight, FaAward } from 'react-icons/fa'
-
+//minute 1:21:32 About Section
 const About = () => {
   return (
     <div className="pt-16 pb-16 ">
