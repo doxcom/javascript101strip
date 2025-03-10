@@ -1,6 +1,5 @@
 import React from 'react'
 import { FaArrowRight, FaAward } from 'react-icons/fa'
-//minute 1:21:32 About Section
 const About = () => {
   return (
     <div className="pt-16 pb-16 ">
@@ -29,7 +28,35 @@ const About = () => {
             </button>
         </div>
         {/* 2nd part */}
-        <div></div>
+        <div>
+            <div>
+                <h1 className="text-7xl lg:text-9xl font-bold text-black text-opacity-5">
+                    01
+                </h1>
+                <div className="-mt-10">
+                 <h1 className="text-xl md:text-2xl text-opacity-70 mb-3 text-black font-bold">
+                    Flexible schedule
+                 </h1>
+                 <p className="w-[90%] lg:w-[70%] text-base text-black text-opacity-60">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas eius hic, corporis facere quisquam delectus possimus! Reprehenderit consequatur sapiente illum ipsum praesentium
+                 </p>
+                </div>
+            </div>
+
+            <div className="mt-8 w-full">
+                <h1 className="text-7xl lg:text-9xl font-bold text-black text-opacity-5">
+                    02
+                </h1>
+                <div className="-mt-10">
+                 <h1 className="text-xl md:text-2xl text-opacity-70 mb-3 text-black font-bold">
+                    Pocket Friendly
+                 </h1>
+                 <p className="w-[90%] lg:w-[70%] text-base text-black text-opacity-60">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas eius hic, corporis facere quisquam delectus possimus! Reprehenderit consequatur sapiente illum ipsum praesentium
+                 </p>
+                </div>
+            </div>
+        </div>
         </div>
     </div>
   )
