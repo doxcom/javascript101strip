@@ -21,7 +21,7 @@ const Courses = () => {
                 </h1> 
                 {/*  Courses */}
                             {/*grid-cols-1 for small devices 1 column , the lg: for large devices*/}
-            <div className="md:mt-16 mt-10 grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-10"> 
+            <div className="md:mt-16 mt-10 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-10"> 
                 {coursesData.map((course)=>{
                     return (
                         // Individual Course Card
