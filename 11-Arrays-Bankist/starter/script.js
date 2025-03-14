@@ -73,6 +73,31 @@ const currencies = new Map([
 
 const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 
+for (const movement of movements){
+  if(movement > 0){
+    console.log(`You deposited ${movement}`);
+  }else{
+    console.log(`You withdrew ${Math.abs(movement)}`);
+  }
+}
+
+//
+
+console.log('---------FOREACH---------');
+
+movements.forEach(function(movementValue){
+  if(movementValue > 0){
+    console.log(`You deposited ${movementValue}`);
+  }else{
+    console.log(`You withdrew ${Math.abs(movementValue)}`);
+  }
+});
+
+//function is a anonymous function
+// with elements inside movementValue variable
+// 0: function(200)
+//1: function(450)
+// every value inside() represents what movementValue variable is holding in that moment when anonymous function is being called
 /////////////////////////////////////////////////
 
 /*
