@@ -1,5 +1,5 @@
 "use client";
-
+//minuto 1hr :39  https://www.youtube.com/watch?v=34w8xP_cvqg&list=PLo1BkBKzvuxiop6-jLx7akI3hfDzBaR83
 import React from 'react'
 import Tilt from "react-parallax-tilt";
 import Image from "next/image";
