@@ -85,11 +85,11 @@ for (const movement of movements){
 
 console.log('---------FOREACH---------');
 
-movements.forEach(function(movementValue){
+movements.forEach(function(movementValue,i){
   if(movementValue > 0){
-    console.log(`You deposited ${movementValue}`);
+    console.log(`Movement ${i+1}: You deposited ${movementValue}`);
   }else{
-    console.log(`You withdrew ${Math.abs(movementValue)}`);
+    console.log(`Movement ${i+1}: You withdrew ${Math.abs(movementValue)}`);
   }
 });
 
