@@ -75,7 +75,7 @@ const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 
 /////////////////////////////////////////////////
 
-
+/*
 let arr =['a','b','c','d','e'];
 
 //it return a new array, doest affect the previous array
@@ -106,9 +106,21 @@ console.log(letters); //abcdefghi
 
 // JOIN
 
+*/
 
+//NEw at method
 
+const arr =[23,,11,64];
 
+console.log("position 0 :"+ arr.at(0)); // -> 23
+
+console.log(arr[arr.length-1]); //64
+
+console.log("last element with -1 index:  "+ arr.at(-1));
+
+//works with strings
+
+console.log('jonas'.at(0)); // j
 
 
 
