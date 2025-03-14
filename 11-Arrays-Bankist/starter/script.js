@@ -74,3 +74,41 @@ const currencies = new Map([
 const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 
 /////////////////////////////////////////////////
+
+
+let arr =['a','b','c','d','e'];
+
+//it return a new array, doest affect the previous array
+console.log(arr.slice(2));
+console.log(arr.slice(2,4));
+console.log(arr.slice(-2)); //d ,e
+console.log(arr.slice(-1)); //e
+console.log(arr.slice(1,-2));
+
+
+//splice it extracts and deleted the other elemtents, original array lose the extracted part
+
+console.log(arr.splice(2)); // c,d,e
+console.log(arr); //original array will print a,b 
+//arr.splice(-1) will erase last element of array
+
+//REVERSE
+
+arr =['a','b','c','d','e'];
+const arr2= ['j','i','h','g','f'];
+console.log(arr2.reverse());
+console.log(arr2);
+
+//concat
+
+const letters = arr.concat(arr2);
+console.log(letters); //abcdefghi
+
+// JOIN
+
+
+
+
+
+
+
