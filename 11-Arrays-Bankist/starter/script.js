@@ -65,12 +65,9 @@ const inputClosePin = document.querySelector('.form__input--pin');
 
 // LECTURES
 
-const currencies = new Map([
-  ['USD', 'United States dollar'],
-  ['EUR', 'Euro'],
-  ['GBP', 'Pound sterling'],
-]);
 
+
+/*
 const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 
 for (const movement of movements){
@@ -92,6 +89,8 @@ movements.forEach(function(movementValue,i){
     console.log(`Movement ${i+1}: You withdrew ${Math.abs(movementValue)}`);
   }
 });
+
+*/
 
 //function is a anonymous function
 // with elements inside movementValue variable
@@ -135,6 +134,7 @@ console.log(letters); //abcdefghi
 
 //NEw at method
 
+/*
 const arr =[23,,11,64];
 
 console.log("position 0 :"+ arr.at(0)); // -> 23
@@ -146,6 +146,26 @@ console.log("last element with -1 index:  "+ arr.at(-1));
 //works with strings
 
 console.log('jonas'.at(0)); // j
+*/
 
 
+const currencies = new Map([
+  ['USD', 'United States dollar'],
+  ['EUR', 'Euro'],
+  ['GBP', 'Pound sterling'],
+]);
+                  //current value. key, the whole map
+currencies.forEach(function(value,key,map){
+   console.log(`${key}: ${value}`);
 
+})
+
+
+//now with a SET
+
+const currenciesUnique = new Set(['USD','GBP','USD','EUR','EUR']);
+console.log(currenciesUnique); //onyl filter unique values
+
+currenciesUnique.forEach(function(value,value_two,map){
+  console.log(`${value}: ${value_two}`);
+})
