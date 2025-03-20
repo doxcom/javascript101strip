@@ -157,7 +157,7 @@ console.log("last element with -1 index:  "+ arr.at(-1));
 console.log('jonas'.at(0)); // j
 */
 
-
+/*
 const currencies = new Map([
   ['USD', 'United States dollar'],
   ['EUR', 'Euro'],
@@ -178,3 +178,5 @@ console.log(currenciesUnique); //onyl filter unique values
 currenciesUnique.forEach(function(value,value_two,map){
   console.log(`${value}: ${value_two}`);
 })
+
+*/
