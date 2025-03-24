@@ -94,7 +94,6 @@ displayMovements(account1.movements);
 
 
 /*
-const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 
 for (const movement of movements){
   if(movement > 0){
@@ -197,13 +196,36 @@ currenciesUnique.forEach(function(value,value_two,map){
 })
 
 */
-
+/*
 
 const checkDogs = function(dogsJulia, dogsKate){
   const dogsJuliaCorrected = dogsJulia.slice();
-  dogsJuliaCorrected.splice(0, 1);
+  dogsJuliaCorrected.splice(0, 1);//the first and we want to remove one
   dogsJuliaCorrected.splice(-2);
+
+
   console.log(dogsJuliaCorrected);
 };
 
 checkDogs([3,5,2,12,7],[4,1,15,8,3]);
+
+*/
+
+const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
+//convert to us dollars
+
+const eurToUsd = 1.1;
+
+const movementsUSD = movements.map(function(mov) {
+   return mov * eurToUsd;
+
+});
+
+//with arrow function
+//const movementsUSD = movements.map(mov => mov * eurToUsd);
+console.log(movements);
+console.log(movementsUSD);
+
+const movementsUSDfor=[];
+for(const mov of movements) movementsUSDfor.push(mov * eurToUsd);
+console.log(movementsUSDfor);
