@@ -63,8 +63,25 @@ const inputClosePin = document.querySelector('.form__input--pin');
 
 
 const displayMovements = function (movements){
-  movements.forEach(function(mov,i) {});
+
+  containerMovements.innerHTML=''; //clear the static elements 
+
+
+  movements.forEach(function(mov,i) {
+    const type = mov > 0 ? 'deposit' : 'withdrawal';
+
+  const html = `
+  <div class="movements__row">
+  <div class="movements__type movements__type--${type}">${i + 1} ${type}</div>
+  <div class="movements__value">${mov}</div>
+  </div>
+  `;
+
+  containerMovements.insertAdjacentHTML('afterbegin',html);
+
+  });
 };
+
 displayMovements(account1.movements);
 
 
@@ -180,3 +197,13 @@ currenciesUnique.forEach(function(value,value_two,map){
 })
 
 */
+
+
+const checkDogs = function(dogsJulia, dogsKate){
+  const dogsJuliaCorrected = dogsJulia.slice();
+  dogsJuliaCorrected.splice(0, 1);
+  dogsJuliaCorrected.splice(-2);
+  console.log(dogsJuliaCorrected);
+};
+
+checkDogs([3,5,2,12,7],[4,1,15,8,3]);
