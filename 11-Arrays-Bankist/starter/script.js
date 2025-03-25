@@ -86,6 +86,17 @@ displayMovements(account1.movements);
 
 
 
+const user = 'Steven Thomas Williams'; //we want to get STW 
+const username = user.toLowerCase().split(' ').map(
+  function(name){
+    return name[0]; //s,t,w
+  }
+).join(''); //stw  
+
+console.log(username);
+
+
+
 
 /////////////////////////////////////////////////
 
@@ -223,9 +234,12 @@ const movementsUSD = movements.map(function(mov) {
 
 //with arrow function
 //const movementsUSD = movements.map(mov => mov * eurToUsd);
+/*
 console.log(movements);
 console.log(movementsUSD);
 
 const movementsUSDfor=[];
 for(const mov of movements) movementsUSDfor.push(mov * eurToUsd);
 console.log(movementsUSDfor);
+
+*/
