@@ -260,3 +260,13 @@ for(const mov of movements) movementsUSDfor.push(mov * eurToUsd);
 console.log(movementsUSDfor);
 
 */
+
+
+const deposits = movements.filter(function(mov){
+  
+  return mov > 0;
+});
+
+console.log(movements);
+console.log(deposits); //without negatives numbers
+
