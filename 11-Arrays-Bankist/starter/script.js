@@ -85,7 +85,7 @@ const displayMovements = function (movements){
 displayMovements(account1.movements);
 
 
-
+/*
 const user = 'Steven Thomas Williams'; //we want to get STW 
 const username = user.toLowerCase().split(' ').map(
   function(name){
@@ -94,7 +94,15 @@ const username = user.toLowerCase().split(' ').map(
 ).join(''); //stw  
 
 console.log(username);
+*/
 
+const user = 'Steven Thomas Williams'; //we want to get STW 
+const username = user.toLowerCase().split(' ')
+                     .map(name => name[0])
+                      .join('');
+                     
+
+console.log(username);
 
 
 
