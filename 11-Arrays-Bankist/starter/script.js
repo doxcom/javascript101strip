@@ -98,6 +98,38 @@ createUsernames(accounts);
 console.log(accounts); //account details with username added
 
 
+//Event Handler
+let currentAccount;
+
+btnLogin.addEventListener('click', function(e){
+  e.preventDefault();//prevent the form from submitting
+ //  console.log('LOGIN');
+  
+ currentAccount = accounts.find(acc => acc.username ===
+   inputLoginUsername.value); //compare object user field on the form
+  console.log(currentAccount);
+
+  if(currentAccount?.pin === Number(inputLoginPin.value)){
+    //display UI welcome message
+    console.log('LOGIN with user and pin');
+    labelWelcome.textContent = `Welcome back, ${
+    currentAccount.owner.split(' ')[0]
+    }`;
+    //containerApp.
+
+
+    //displya movements
+
+
+    //displya balance
+
+
+    //display summaryy
+  }
+
+});
+
+
 /*
 const user = 'Steven Thomas Williams'; //we want to get STW 
 const username = user.toLowerCase().split(' ').map(
