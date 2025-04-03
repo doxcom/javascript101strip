@@ -3,7 +3,8 @@
 import React from 'react'
 import Tilt from "react-parallax-tilt";
 import Image from "next/image";
-import { FaStar } from 'react-icons/fa';
+import { FaFile, FaStar, FaUser } from 'react-icons/fa';
+import { FaUserGroup } from 'react-icons/fa6';
 
 //define the type
 
@@ -25,7 +26,7 @@ const CourseCard = ({course}: Props) => {
   return (
     <Tilt>
 
-        <div className="bg-white rounded-lg overflow-hidden cursor-pointer">
+        <div className="bg-white rounded-lg overflow-hidden   cursor-pointer">
             {/* Image Grid */}
             <div>
                 <Image src={course.image} 
@@ -61,9 +62,16 @@ const CourseCard = ({course}: Props) => {
           {/* Line under Review text*/}
             <div className="mt-6 mb-6 w-full h-[2px] bg-gray-500 opacity-15"></div>
             <div className="flex mb-8 items-center justify-between">
-                <div className="flex items-center space-x-2"></div>
+                <div className="flex items-center space-x-2">
+                    <FaFile className="w-4 h-4 text-orange-600"/>
+                    <p className="text-base font-semibold text-gray-800">{course.lessons} Lessons</p>
+                </div> 
+                <div className="flex items-center space-x-2">
+                    <FaUserGroup className="w-4 h-4 text-orange-600"/>
+                    <p className="text-base font-semibold text-gray-800">{course.students} Students</p>
+                </div>   
             </div>
-            </div>
+        </div>
         </div>
     </Tilt>
   )
