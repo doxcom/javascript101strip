@@ -3,6 +3,7 @@
 import React from 'react'
 import Tilt from "react-parallax-tilt";
 import Image from "next/image";
+import { FaStar } from 'react-icons/fa';
 
 //define the type
 
@@ -44,9 +45,25 @@ const CourseCard = ({course}: Props) => {
                 <span className="text-lg text-black text-opacity-70 font-bold">{course.category}</span>
                 <span className="text-base text-gray-600">{course.author}</span>
             </div>
-
+          <h1 className="text-xl text-black font-bold mt-2">{course.title}</h1>
+          {/*reviews*/}
+          <div className="flex mt2 items-center space-x-2s">
+            <div className="flex items-center">
+                <FaStar className="w-4 h-4 text-yellow-600"/>
+                <FaStar className="w-4 h-4 text-yellow-600"/>
+                <FaStar className="w-4 h-4 text-yellow-600"/>
+                <FaStar className="w-4 h-4 text-yellow-600"/>
+                <FaStar className="w-4 h-4 text-yellow-600"/>
             </div>
-        
+             <span className="text-base text-orange-800 font-semibold">({course.reviewNumber} Reviews)
+             </span>
+          </div>
+          {/* Line under Review text*/}
+            <div className="mt-6 mb-6 w-full h-[2px] bg-gray-500 opacity-15"></div>
+            <div className="flex mb-8 items-center justify-between">
+                <div className="flex items-center space-x-2"></div>
+            </div>
+            </div>
         </div>
     </Tilt>
   )
