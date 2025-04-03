@@ -38,7 +38,15 @@ const CourseCard = ({course}: Props) => {
             <div className="p-4">
                <h1 className="ml-auto relative z-[10] h-20 w-20 flex items-center text-lg font-bold justify-center
                flex-col  mt-[-4rem] rounded-full bg-rose-700 text-white">${course.price}</h1> 
+
+                  {/*information*/}
+            <div className="flex items-center mt-6 space-x-4">
+                <span className="text-lg text-black text-opacity-70 font-bold">{course.category}</span>
+                <span className="text-base text-gray-600">{course.author}</span>
             </div>
+
+            </div>
+        
         </div>
     </Tilt>
   )
