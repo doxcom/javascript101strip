@@ -61,6 +61,8 @@ const CourseCard = ({course}: Props) => {
           </div>
           {/* Line under Review text*/}
             <div className="mt-6 mb-6 w-full h-[2px] bg-gray-500 opacity-15"></div>
+            {/* Lessons and students*/}
+
             <div className="flex mb-8 items-center justify-between">
                 <div className="flex items-center space-x-2">
                     <FaFile className="w-4 h-4 text-orange-600"/>
