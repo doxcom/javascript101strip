@@ -18,7 +18,7 @@ const Feature = () => {
        
        {/*Text Content*/}
       <div>
-             {/*TSubheading*/}
+             {/*Subheading*/}
 
      <div className="flex items-center space-x-4">
                     <div className="w-12 h-12 bg-rose-600 rounded-full flex items-center justify-center flex-col">
