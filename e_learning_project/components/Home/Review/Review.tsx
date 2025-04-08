@@ -20,7 +20,17 @@ const Review = () => {
                              </h1>
                          </div>
                           {/* title */}
-                          <h1 className="text-2xl md:text-3xl lg:text-5xl mt-8 font-bold md:leading-[3rem] lg:leading-[3.3rem] xl:leading-[3.6rem] text-white"> Trusted by genius people.</h1>
+                          <h1 className="text-2xl md:text-3xl lg:text-5xl mt-8 font-bold md:leading-[3rem] lg:leading-[3.3rem] xl:leading-[3.6rem] text-white"> Trusted by genius people.
+                          </h1>
+
+                       {/* description */}
+                      <p className="text-base text-white text-opacity-50 mt-6">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero delectus a quas alias neque, laborum optio qui.
+                      </p>
+                       {/* description */}
+
+
+
                    </div>
               
 
