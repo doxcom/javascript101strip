@@ -27,13 +27,12 @@ const Review = () => {
                       <p className="text-base text-white text-opacity-50 mt-6">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero delectus a quas alias neque, laborum optio qui.
                       </p>
-                       {/* description */}
-
-
-
+                       {/* info */}
+                       <div className="flex items-center space-x-10 mt-8">
+                        <p className="text-white font-bold text-5xl">99%</p>
+                        <p className="text-white">Student's Complete <br /> Course Successfully</p>
+                       </div>
                    </div>
-              
-
          {/*Slider */}
          <div></div>
       </div>
