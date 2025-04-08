@@ -19,11 +19,10 @@ const Review = () => {
                                  Student Feedback
                              </h1>
                          </div>
-
-                                     {/*other*/}
-
-
-        </div>
+                          {/* title */}
+                          <h1 className="text-2xl md:text-3xl lg:text-5xl mt-8 font-bold md:leading-[3rem] lg:leading-[3.3rem] xl:leading-[3.6rem] text-white"> Trusted by genius people.</h1>
+                   </div>
+              
 
          {/*Slider */}
          <div></div>
