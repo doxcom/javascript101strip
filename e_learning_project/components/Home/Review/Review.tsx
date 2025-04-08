@@ -1,6 +1,7 @@
 "use client";
 
 
+import Slider from '@/components/Helper/Slider';
 import React from 'react'
 import { BsQuote } from 'react-icons/bs';
 
@@ -34,7 +35,10 @@ const Review = () => {
                        </div>
                    </div>
          {/*Slider */}
-         <div></div>
+         <div className="xl:col-span-2 bg-white rounded-lg overflow-hidden">
+        <Slider />
+
+         </div>
       </div>
     </div>
   )
