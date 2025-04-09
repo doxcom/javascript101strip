@@ -4,6 +4,7 @@ import About from "./About/About";
 import Courses from "./Courses/Courses";
 import Feature from "./Feature/Feature";
 import Review from "./Review/Review";
+import Article from "./Article/Article";
 
 const Home = () => {
   return <div>
@@ -12,6 +13,7 @@ const Home = () => {
     <Courses/>
     <Feature/>
     <Review/>
+    <Article/>
     </div>;
 };
 
