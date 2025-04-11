@@ -48,7 +48,8 @@ const Footer = () => {
                <button className="px-6 py-2 mt-4 rounded-lg outline-none bg-rose-700 w-full text-white">Subscribe</button>
           </div>
         </div>
-   
+        
+         <p className="text-center mt-4 text-base text-white opacity-70"> Copyright 2025 by Aldo & Enrique</p>
         </div>
   )
 }
