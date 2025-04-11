@@ -29,6 +29,24 @@ const Footer = () => {
             <p className="footer__link">Desktop Development</p>
             <p className="footer__link">Digital Marketing</p>
           </div>
+
+              {/* 3rd part */}
+              <div>
+            <h1 className="footer__heading">Quick link</h1>
+            <p className="footer__link">Home</p>
+            <p className="footer__link">About</p>
+            <p className="footer__link">Courses</p>
+            <p className="footer__link">Instructor</p>
+            <p className="footer__link">Profile</p>
+            <p className="footer__link">Privacy Policy</p>
+          </div>
+
+               {/* 4th part */}
+               <div>
+               <h1 className="footer__heading">Subscribe our Newsletter</h1>
+               <input type="text" placeholder="Enter your email" className="px-6 py-2 rounded-lg outline-none bg-gray-700 w-full text-white"/>
+               <button className="px-6 py-2 mt-4 rounded-lg outline-none bg-rose-700 w-full text-white">Subscribe</button>
+          </div>
         </div>
    
         </div>
