@@ -19,9 +19,18 @@ const Footer = () => {
                 <FaInstagram  className="w-6 h-6 text-pink-600"/>
             </div>
         </div>
-
+        {/* 2nd part */}
+          <div>
+            <h1 className="footer__heading">Popular</h1>
+            <p className="footer__link">Web Development</p>
+            <p className="footer__link">Hacking</p>
+            <p className="footer__link">UI/UX Design</p>
+            <p className="footer__link">App Development</p>
+            <p className="footer__link">Desktop Development</p>
+            <p className="footer__link">Digital Marketing</p>
+          </div>
         </div>
-        <div></div>
+   
         </div>
   )
 }
