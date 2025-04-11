@@ -44,6 +44,11 @@ const ArticleCard = ({article}:Props) => {
                 <p className="text-sm text-gray-800">{article.reaction}</p>
               </div>
         </div>
+       {/*Heading*/}
+       <h1 className="mt-4 mb-4 text-xl font-semibold" >{article.title}</h1>
+       <p className="text-base text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam numquam cumque, exercitationem quis quia recusandae..</p>
+       <button className="mt-4 mb-3 hover:text-green-600 text-lg text-black font-bold underline">Learn More</button>
+
         </div>
     </div>
   )
