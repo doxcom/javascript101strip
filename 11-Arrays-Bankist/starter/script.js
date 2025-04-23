@@ -35,7 +35,7 @@ const account4 = {
 
 const account5 = {
   owner: 'Jorge Aldo',
-  movements: [182530, 3000, 900, 150, 90],
+  movements: [182530, 35848000, 900, 150, 90],
   interestRate: 0.4,
   pin: 5555,
 };
@@ -90,16 +90,31 @@ const displayMovements = function (movements){
 
 const calcDisplayBalance = function (movements) {
   const balance = movements.reduce((acc, mov) => acc + mov, 0);
-  labelBalance.textContent=`${balance} EUR`;
+  labelBalance.textContent=`${balance} €`;
 };
 
-const calcDisplaySummary = function(movements){
-  const incomes = movements
+const calcDisplaySummary = function(acc){
+  const incomes = acc.movements
   .filter(mov => mov > 0)
   .reduce((acc, mov) => acc + mov, 0);
-}
+  labelSumIn.textContent = `${Math.abs(incomes)}€`;
 
-displayMovements(account1.movements);
+const out = acc.movements
+    .filter(mov => mov < 0)
+    .reduce((acc, mov) => acc + mov, 0);
+      labelSumOut.textContent =`${Math.abs(out)}€`;
+
+const interest = acc.movements
+   .filter(mov => mov > 0)
+   .map(deposit => (deposit * acc.interestRate) /100)
+   .filter((int, i, arr) => {
+    return int >= 1;
+   })
+   .reduce((acc, int) => acc + int, 0);
+   labelSumInterest.textContent = `${interest}€`;
+  };
+
+//displayMovements(account1.movements);
 
 const createUsernames = function(accs){
 
@@ -135,6 +150,11 @@ btnLogin.addEventListener('click', function(e){
     //containerApp.
 
     containerApp.style.opacity = 100;
+    //clear input fields
+    inputLoginUsername.value = inputLoginPin.value = '';
+    
+    inputLoginPin.blur(); //it loose the focus on this field
+    
     //display movements
     displayMovements(currentAccount.movements);
 
@@ -142,7 +162,7 @@ btnLogin.addEventListener('click', function(e){
     calcDisplayBalance(currentAccount.movements);
 
     //display summaryy
-    calcDisplaySummary(currentAccount.movements);
+    calcDisplaySummary(currentAccount);
   }
 
 });
