@@ -33,7 +33,14 @@ const account4 = {
   pin: 4444,
 };
 
-const accounts = [account1, account2, account3, account4];
+const account5 = {
+  owner: 'Jorge Aldo',
+  movements: [182530, 3000, 900, 150, 90],
+  interestRate: 0.4,
+  pin: 5555,
+};
+
+const accounts = [account1, account2, account3, account4, account5];
 
 // Elements
 const labelWelcome = document.querySelector('.welcome');
@@ -66,7 +73,6 @@ const displayMovements = function (movements){
 
   containerMovements.innerHTML=''; //clear the static elements 
 
-
   movements.forEach(function(mov,i) {
     const type = mov > 0 ? 'deposit' : 'withdrawal';
 
@@ -81,6 +87,17 @@ const displayMovements = function (movements){
 
   });
 };
+
+const calcDisplayBalance = function (movements) {
+  const balance = movements.reduce((acc, mov) => acc + mov, 0);
+  labelBalance.textContent=`${balance} EUR`;
+};
+
+const calcDisplaySummary = function(movements){
+  const incomes = movements
+  .filter(mov => mov > 0)
+  .reduce((acc, mov) => acc + mov, 0);
+}
 
 displayMovements(account1.movements);
 
@@ -117,14 +134,15 @@ btnLogin.addEventListener('click', function(e){
     }`;
     //containerApp.
 
+    containerApp.style.opacity = 100;
+    //display movements
+    displayMovements(currentAccount.movements);
 
-    //displya movements
-
-
-    //displya balance
-
+    //display balance
+    calcDisplayBalance(currentAccount.movements);
 
     //display summaryy
+    calcDisplaySummary(currentAccount.movements);
   }
 
 });
