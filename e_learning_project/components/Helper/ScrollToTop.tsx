@@ -35,7 +35,8 @@ const ScrollToTop = () => {
     {isVisible && 
     <button 
     onClick={ScrollToTop}
-    className="bg-blue-600 text-white rounded-full w-12 h-12 flex items-center justify-center focus:outl">
+    className="bg-blue
+    -600 text-white rounded-full w-12 h-12 flex items-center justify-center focus:outl">
         <FaArrowUp/>
      </button>}
   </div>)
