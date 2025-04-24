@@ -137,19 +137,17 @@ btnLogin.addEventListener('click', function(e){
   e.preventDefault();//prevent the form from submitting
  //  console.log('LOGIN');
   
- currentAccount = accounts.find(acc => acc.username ===
-   inputLoginUsername.value); //compare object user field on the form
-  console.log(currentAccount);
+ currentAccount = accounts.find(acc => acc.username === inputLoginUsername.value); //compare object user field on the form
 
   if(currentAccount?.pin === Number(inputLoginPin.value)){
     //display UI welcome message
-    console.log('LOGIN with user and pin');
     labelWelcome.textContent = `Welcome back, ${
     currentAccount.owner.split(' ')[0]
     }`;
     //containerApp.
 
     containerApp.style.opacity = 100;
+    
     //clear input fields
     inputLoginUsername.value = inputLoginPin.value = '';
     
