@@ -186,6 +186,27 @@ btnTransfer.addEventListener('click', function(e){
   }
 });
 
+
+//loan feature
+
+btnLoan.addEventListener('click', function(e){
+  e.preventDefault();
+//1.0 equals to %10
+  const amount = Number(inputLoanAmount.value);
+  if(amount > 0 &&  currentAccount.movements.some(mov => mov >= amount * 0.1)){
+// add movement
+currentAccount.movements.push(amount);
+
+//update ui
+
+updateUI(currentAccount)
+  }
+  //clear input values
+inputLoanAmount.value = '';
+})
+
+
+
 btnClose.addEventListener('click', function(e){
   e.preventDefault();
   console.log('Deleted Account');
@@ -377,7 +398,7 @@ const deposits = movements.filter(function(mov){
   
   return mov > 0;
 });
-
+/*
 console.log(movements);
 console.log(deposits); //without negatives numbers
 
@@ -391,3 +412,16 @@ console.log(lastWithdrawal);
 const latestLargeMovementIndex = movements.findLastIndex(mov=>Math.abs(mov)>2000);
 
 console.log(latestLargeMovementIndex);
+
+*/
+console.log(movements);
+
+//equality
+console.log(movements.includes(-130));
+
+//condition
+
+console.log(movements.some(mov => mov === -130));
+
+const anyDeposits = movements.some(mov => mov > 0);
+console.log(anyDeposits);
