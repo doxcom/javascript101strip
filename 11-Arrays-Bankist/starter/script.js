@@ -381,3 +381,13 @@ const deposits = movements.filter(function(mov){
 console.log(movements);
 console.log(deposits); //without negatives numbers
 
+
+console.log(movements);
+const lastWithdrawal = movements.findLast(mov => mov <0)
+console.log(lastWithdrawal);
+
+
+//find index
+const latestLargeMovementIndex = movements.findLastIndex(mov=>Math.abs(mov)>2000);
+
+console.log(latestLargeMovementIndex);
