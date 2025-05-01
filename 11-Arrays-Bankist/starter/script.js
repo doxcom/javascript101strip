@@ -532,3 +532,7 @@ const dogBothActivities = breeds.find(
   console.log(uniqueActivities);
 
   
+
+  const owners = ['Jonas', 'Zach', 'Adam', 'Martha'];
+  console.log(owners.sort());
+  console.log(owners);
