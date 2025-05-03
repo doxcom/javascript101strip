@@ -518,7 +518,7 @@ const overalBalance = accounts
     activities: ['agility', 'fetch'],
   },
 ];
-
+/*
 
 const huskyWeight = breeds.find(breed => breed.breed === 'Husky').averageWeight;
 console.log("husky weight g:" + huskyWeight);
@@ -558,7 +558,7 @@ const dogBothActivities = breeds.find(
     if(b>a)
       return -1;
   });*/
-
+/*
   ///another way
 movements.sort((a,b) => a -b);
   console.log(movements);//sorted correctly
@@ -572,6 +572,33 @@ movements.sort((a,b) => a -b);
     if( a< b) return 1;
   });
 
-  console.log("descending: "+ movements);
+  console.log("descendingg: "+ movements);
+
+*/
+
+  //ARRAY grouping
+
+  console.log(movements);
+
+  const groupedMovements = Object.groupBy(movements, movement =>
+    movement > 0 ? 'deposits' : 'withdrawals'
+  );
+
+  console.log(groupedMovements);
+
+  const groupedByActivity = Object.groupBy(accounts, account => {
+      const movementCount = account.movements.length;
+    
+      if(movementCount >= 8) return 'very active';
+      if(movementCount >= 4) return 'active';
+      if(movementCount >= 1) return 'moderate';
+
+      return 'inactive';
+    });
+
+    console.log( groupedByActivity);
+
+    const groupedAccounts = Object.groupBy(accounts, account => account.type);
+    console.log(groupedAccounts);
 
 
