@@ -634,3 +634,14 @@ const z = Array.from({length: 7},(cur,i) => i + 1);
 console.log(z);
 
 
+//reversing arrays
+console.log("before reverse: "+ movements);
+const reversedMov = movements.reverse()
+console.log(reversedMov); //this is the reversed array
+console.log("original array modified: "+ movements); // reverse is modifiying our original arrray
+//to remain the original we can use movements.slice().reverse(); or use toReversed();
+
+
+//other non destructing methods
+//toSorted, and toSpliced
+
