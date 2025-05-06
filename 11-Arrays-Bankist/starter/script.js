@@ -602,3 +602,35 @@ movements.sort((a,b) => a -b);
     console.log(groupedAccounts);
 
 
+
+
+//Common Arrays
+
+const arr3 =[1,2,3,4,5,6,7];
+console.log([1,2,3,4,5,6,7]);
+
+//array constructor function
+
+
+const x = new Array(7); 
+console.log(x); // array with 7 empty elements
+
+x.fill(1); //fill array full of 1's , we can indicate from where to start (1,3) on the 3 for example
+console.log(x);
+
+//we can mutate existing arrays
+//filling with value "23"
+arr3.fill(23,2,6);//from position 2 to the 6
+console.log(arr3);
+
+
+//array constructor with from method
+//
+const y =Array.from({length: 7}, () => 1);
+console.log(y);// 1,1,1,1,1,1,1
+
+
+const z = Array.from({length: 7},(cur,i) => i + 1);
+console.log(z);
+
+
