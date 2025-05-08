@@ -645,3 +645,10 @@ console.log("original array modified: "+ movements); // reverse is modifiying ou
 //other non destructing methods
 //toSorted, and toSpliced
 
+
+
+//lectures
+
+console.log(23 ===23.0); //true, 
+
+
