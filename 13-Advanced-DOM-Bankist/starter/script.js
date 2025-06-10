@@ -76,14 +76,22 @@ document.querySelector('.btn--close-cookie').addEventListener('click', function(
   messagediv.remove();
 })
 
-const btnScrollTo = document.querySelector('.btn-scroll-to');
+const btnScrollTo = document.querySelector('.btn--scroll-to');
 
 const section1 = document.querySelector('#section--1');
 
-btnScrollTo.addEventListener('clic', function(e){
+btnScrollTo.addEventListener('click', function(e) {
   const s1coords = section1.getBoundingClientRect();
   console.log(s1coords);
 
   //scrolling
   window.scrollTo(s1coords.left, s1coords.top);
 });
+
+
+//need to hover over h1 title
+const h1 = document.querySelector('h1');
+h1.addEventListener('mouseenter', function(e){
+  alert('addEventListener: Great this the heading!');
+});
+
