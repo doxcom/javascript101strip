@@ -91,7 +91,18 @@ btnScrollTo.addEventListener('click', function(e) {
 
 //need to hover over h1 title
 const h1 = document.querySelector('h1');
-h1.addEventListener('mouseenter', function(e){
-  alert('addEventListener: Great this the heading!');
-});
 
+const alertH1 = function (e){
+  alert('addEventListener: Great! you are on heading H1');
+};
+
+h1.addEventListener('mouseenter', alertH1);
+//setting listener once, to dissappear in 3 seconds
+setTimeout(() => h1.removeEventListener('mouseenter', alertH1), 3000);
+
+
+//const h4 = document.querySelector('h4');
+
+//h1.onmouseenter = function(e){
+ // alert('onmouseenter: on clic simpler banking part');
+//};
