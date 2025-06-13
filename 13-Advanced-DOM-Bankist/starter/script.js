@@ -101,8 +101,31 @@ h1.addEventListener('mouseenter', alertH1);
 setTimeout(() => h1.removeEventListener('mouseenter', alertH1), 3000);
 
 
+
+
 //const h4 = document.querySelector('h4');
 
 //h1.onmouseenter = function(e){
  // alert('onmouseenter: on clic simpler banking part');
 //};
+
+
+// rgb(255,255,255)
+
+const randomInt = (min,max) => Math.floor(Math.random() * (max - min + 1) + min);
+
+const randomColor = () =>  `rgb(${randomInt(0,255)},${randomInt(0,255)},${randomInt(0, 255)})`;
+
+console.log(randomColor(0, 255));
+
+document.querySelector('.nav__link').addEventListener('click', function(e){
+  console.log('Link');
+});
+
+document.querySelector('.nav__links').addEventListener('click', function(e){
+  console.log('Links');
+});
+
+document.querySelector('.nav').addEventListener('click', function(e){
+  console.log('Nav');
+});
