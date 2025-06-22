@@ -124,15 +124,15 @@ btnScrollTo.addEventListener('click', function(e) {
 
 
 //need to hover over h1 title
-const h1 = document.querySelector('h1');
+//const h1 = document.querySelector('h1');
 
-const alertH1 = function (e){
-  alert('addEventListener: Great! you are on heading H1');
-};
+//const alertH1 = function (e){
+//  alert('addEventListener: Great! you are on heading H1');
+//};
 
-h1.addEventListener('mouseenter', alertH1);
+//h1.addEventListener('mouseenter', alertH1);
 //setting listener once, to dissappear in 3 seconds
-setTimeout(() => h1.removeEventListener('mouseenter', alertH1), 3000);
+//setTimeout(() => h1.removeEventListener('mouseenter', alertH1), 3000);
 
 
 
@@ -163,3 +163,14 @@ document.querySelector('.nav__links').addEventListener('click', function(e){
 document.querySelector('.nav').addEventListener('click', function(e){
   console.log('Nav');
 });
+
+
+const h1 = document.querySelector('h1');
+
+//going downwards: child
+
+h1.querySelectorAll('.highlight');
+h1.childNodes;
+h1.children;
+h1.firstElementChild.style.color = 'white';
+h1.lastElementChild.style.color = 'orangered';
