@@ -31,6 +31,40 @@ document.addEventListener('keydown', function (e) {
   }
 });
 
+//Page navigation
+
+//select links
+
+//document.querySelectorAll('.nav__link').forEach
+//(function(el){
+//  el.addEventListener('click', function(e) {
+//    e.preventDefault();
+//    const id = this.getAttribute('href');
+//    console.log(id);
+//    document.querySelector(id).scrollIntoView({
+//      behavior: 'smooth' });
+//  });
+//});
+
+
+//1.- ADD event listener to common parent element
+//2.- Determine what element originated the event
+
+document.querySelector('.nav__links').addEventListener
+('click', function(e){
+     e.preventDefault();
+
+  //matching strategy
+
+  if(e.target.classList.contains('nav__link')){
+     const id = e.target.getAttribute('href');
+     console.log(id);
+     document.querySelector(id).scrollIntoView({
+      behavior: 'smooth'});
+  }
+});
+
+
 //selecting all documement
 console.log(document);
 console.log(document.head);
