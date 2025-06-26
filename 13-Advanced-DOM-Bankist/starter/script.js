@@ -174,3 +174,56 @@ h1.childNodes;
 h1.children;
 h1.firstElementChild.style.color = 'white';
 h1.lastElementChild.style.color = 'orangered';
+
+
+//going upwards: parents
+
+console.log(h1.parentNode);
+console.log(h1.parentElement);
+
+h1.closest('.header').style.background='var(--gradient-secondary)';  //the part around the h1 title
+
+h1.closest('h1').style.background='var(--gradient-primary)'; //the part behind h1 title
+
+
+//working with siblings
+
+console.log("previous element sibling: " + h1.previousElementSibling);
+console.log("next element sibling: " + h1.nextElementSibling);
+
+console.log("previous sibling: "+ h1.previousSibling);
+console.log("next sibling: "+ h1.nextSibling);
+
+console.log(h1.parentElement.children); //iterate in array
+[...h1.parentElement.children].forEach(function(el){
+  if (el !== h1) el.style.transform = 'scale(0.5)';
+});  //will make children smaller
+
+
+
+
+//Tabbed component
+
+const tabs = document.querySelectorAll('.operations__tab');
+
+const tabsContainer = document.querySelector('.operations__tab-container');
+
+const tabsContent = document.querySelectorAll('.operations__content');
+
+//events
+
+tabsContainer.addEventListener('click', function(e){
+  const clicked = e.target.closest('.operations__tab');
+  console.log(clicked);
+  if(!clicked) return;
+     tabs.forEach(t => t.classList.remove
+      ('operations__tab--active'));
+
+      tabsContent.forEach(c => c.classList.remove('operations__content--active'))
+     clicked.classList.add('operations__tab--active');
+
+
+     //activate conten area
+
+     document.querySelector(`.operations__content--${clicked.dataset.tab}`).classList.add('operations__content--active');
+});
