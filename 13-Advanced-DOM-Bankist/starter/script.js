@@ -74,7 +74,8 @@ console.log(document.body);
 
 //selecting elements
 const header = document.querySelector('.header');
-const allSections = document.querySelectorAll('.section');//this is not keeping live elements on code html
+
+//const allSections = document.querySelectorAll('.section');//this is not keeping live elements on code html
 console.log(allSections); //nodelist of 4 sections on the bankist page
 
 document.getElementById('section--1');
@@ -281,5 +282,35 @@ const headerObserver = new IntersectionObserver
 });
 
 headerObserver.observe(header);
+
+
+//reveal sections
+
+const allSections = document.querySelectorAll('.section');
+
+const revealSection = function(entries, observer){
+
+  const [entry] = entries;
+  console.log(entry);
+
+  if(!entry.isIntersecting) return;
+
+   entry.target.classList.remove('section--hidden');
+   observer.unobserve(entry.target);
+   
+};
+
+
+const sectionObserver = new IntersectionObserver 
+(revealSection,{
+  root: null,
+  threshold: 0.15,
+});
+
+allSections.forEach(function(section){
+  sectionObserver.observe(section);
+  section.classList.add('section--hidden');
+});
+
 
 
