@@ -1,7 +1,7 @@
 {
   "name": "forkify",
   "version": "1.0.0",
-  "description": "recipe application",
+  "description": "Recipe application",
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html",
@@ -10,7 +10,11 @@
   "author": "Jonas with aldo",
   "license": "ISC",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.16.1",
     "parcel": "^2.16.1",
     "sass": "^1.26.10"
+  },
+  "targets": {
+    "main": false
   }
 }
