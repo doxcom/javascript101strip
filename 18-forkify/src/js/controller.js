@@ -1,4 +1,8 @@
+import * as model from './model.js';
+
 import icons from 'url:../img/icons.svg';
+
+
 
 // parcel way
 const recipeContainer = document.querySelector('.recipe');
@@ -18,32 +22,28 @@ const timeout = function (s) {
 
 //ajax request
 
+const renderSpinner = function(parentEl){
+  const markup = `
+  <div class="spinner">
+          <svg>
+            <use href="${icons}#icon-loader"></use>
+          </svg>
+        </div>
+        `;
+        parentEl.innerHTML ='';
+        parentEl.insertAdjacentHTML('afterbegin',markup);
+}
+
 const showRecipe = async function (){
-
   try {
-    const res = await fetch(
-      'https://forkify-api.herokuapp.com/api/get?rId=47746'
-    );
-   //save in a json
-   // 1) loading recipe
-     const data = await res.json();
+    const id = window.location.hash.slice(1);
 
-    if(!res.ok) throw new Error(`${data.message} (${res.status})`);
-    console.log(res,data);
-    let { recipe } = data;
-    recipe = {
-      id: recipe.id,
-      title: recipe.title,
-      publisher: recipe.publisher,
-      sourceUrl: recipe.sourceUrl,
-      image: recipe.image,
-      servings: recipe.servings,
-      cookingTime: recipe.cookingTime,
-      ingredients: recipe.ingredients, 
-    };
-  //  console.log(recipe);
-   // 2) Rendering recipe
-
+    if(!id) return;
+    renderSpinner(recipeContainer);
+   
+    await model.loadRecipe(id);
+   const {recipe} = model.state;
+   
    const markup = `
    <figure class="recipe__fig">
           <img src="${recipe.image}" alt="Tomato" class="recipe__img" />
@@ -137,4 +137,5 @@ recipeContainer.insertAdjacentHTML('afterbegin',markup)
     alert(err)
   }
 };
-showRecipe();
+
+window.addEventListener('hashchange', showRecipe)

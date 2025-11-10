@@ -1,11 +1,11 @@
-3710
+3716
 99C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\optimizer-image134068629984688325 1
 71C:\Development\javascriptAldo101\javascript101strip\18-forkify\src\sass134068662647747014 1
 104C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\type-fest\source\except.d.ts134068629970539349 0
 150C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\core\test\fixtures\config-extends-not-found\.parcelrc-node-modules134068629991161178 0
 75C:\Development\javascriptAldo101\javascript101strip\18-forkify\package.json134068662721828470 0
 102C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\utility-types\package.json134068629969484109 0
-67C:\Development\javascriptAldo101\javascript101strip\18-forkify\dist134070417068031073 1
+67C:\Development\javascriptAldo101\javascript101strip\18-forkify\dist134072199688690733 1
 110C:\Development\javascriptAldo101\javascript101strip\18-forkify\starter\forkify-architecture-recipe-loading.png134068505906923948 0
 100C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\react-refresh\runtime.js134068629972329977 0
 90C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@lezer\lr\dist134068629975523932 1
@@ -21,7 +21,7 @@
 70C:\Development\javascriptAldo101\javascript101strip\18-forkify\src\img134068662647096625 1
 102C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\color-convert\package.json134068629968138954 0
 96C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\tslib\tslib.es6.html134068629968158849 0
-73C:\Development\javascriptAldo101\javascript101strip\18-forkify\index.html134068505907407738 0
+73C:\Development\javascriptAldo101\javascript101strip\18-forkify\index.html134072167454080948 0
 89C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\color-convert134068629969444127 1
 80C:\Development\javascriptAldo101\javascript101strip\18-forkify\package-lock.json134068662722315593 0
 98C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@lezer\lr\package.json134068629975193957 0
@@ -32,7 +32,7 @@
 75C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules134068662721778793 1
 117C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\lmdb\node_modules\node-addon-api\index.js134068629991105815 0
 100C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\utils\test\input134068629992542181 1
-83C:\Development\javascriptAldo101\javascript101strip\18-forkify\src\js\controller.js134070418133892335 0
+83C:\Development\javascriptAldo101\javascript101strip\18-forkify\src\js\controller.js134072199687372355 0
 108C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@swc\helpers\esm\_export_star.js134068629990475760 0
 66C:\Development\javascriptAldo101\javascript101strip\18-forkify\src134068662647267641 1
 103C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\sass\types\value\index.d.ts134068632187539057 0
@@ -53,11 +53,13 @@
 104C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\ordered-binary\tests\test.js134068629969444127 0
 103C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@swc\helpers\cjs\_throw.cjs134068629981364004 0
 99C:\Development\javascriptAldo101\javascript101strip\18-forkify\starter\forkify-flowchart-part-1.png134068505907064785 0
-129C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\react-refresh\cjs\react-refresh-runtime.production.js134068629972180054 0
-81C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\clone134068629969304153 1
-107C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\caniuse-lite\data\regions\LT.js134068630002089131 0
-125C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@swc\helpers\cjs\_initializer_define_property.cjs134068629978279418 0
-93C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\tslib\LICENSE.txt134068629970509359 0
+94C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@lezer\common\dist134068629975303978 1
+107C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\caniuse-lite\data\regions\BZ.js134068629979744652 0
+89C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\react-refresh134068629972510056 1
+126C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@swc\helpers\esm\_class_private_field_loose_key.js134068629985869012 0
+132C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\caniuse-lite\data\features\same-site-cookie-attribute.js134068630005072948 0
+117C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\reporter-dev-server\src\templates134068629987309767 1
+89C:\Development\javascriptAldo101\javascript101strip\18-forkify\src\js\views\recipeView.js134072196831239171 0
 127C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\react-refresh\cjs\react-refresh-babel.production.js134068629971834636 0
 107C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\caniuse-lite\data\regions\EC.js134068629996375096 0
 146C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\node-gyp-build-optional-packages\node_modules\detect-libc\package.json134068629969414103 0
@@ -137,6 +139,9 @@
 120C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\caniuse-lite\data\features\css-line-clamp.js134068629992222030 0
 119C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\core\test\PublicEnvironment.test.js134068629996014948 0
 90C:\Development\javascriptAldo101\javascript101strip\18-forkify\starter\src\sass\_base.scss134068505907940466 0
+111C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\runtime-browser-hmr\LICENSE134068629982429433 0
+94C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\dotenv\SECURITY.md134068629976498742 0
+78C:\Development\javascriptAldo101\javascript101strip\18-forkify\src\js\model.js134072204729560940 0
 128C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\lmdb\node_modules\node-addon-api\tools\conversion.js134068629990975744 0
 92C:\Development\javascriptAldo101\javascript101strip\18-forkify\starter\src\sass\_header.scss134068505908035363 0
 113C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@swc\helpers\cjs\_new_arrow_check.cjs134068629979484645 0
@@ -176,10 +181,10 @@
 88C:\Development\javascriptAldo101\javascript101strip\18-forkify\starter\src\img\icons.svg134068505907656135 0
 101C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@swc\helpers\cjs\_get.cjs134068629977864141 0
 90C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\dotenv\LICENSE134068629975002997 0
-77C:\Development\javascriptAldo101\javascript101strip\18-forkify\src\index.html134070418088455954 0
+77C:\Development\javascriptAldo101\javascript101strip\18-forkify\src\index.html134070418595784426 0
 92C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\globals\index.js134068629968478849 0
 110C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\core\src\CommittedAsset.js134068629993143124 0
-69C:\Development\javascriptAldo101\javascript101strip\18-forkify\src\js134068662647196900 1
+69C:\Development\javascriptAldo101\javascript101strip\18-forkify\src\js134072196725311148 1
 122C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\transformer-postcss\src\loadPlugins.js134068629980608672 0
 115C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\caniuse-lite\data\features\png-alpha.js134068630004173760 0
 109C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@swc\helpers\cjs\_await_value.cjs134068629973441268 0
@@ -192,18 +197,15 @@
 91C:\Development\javascriptAldo101\javascript101strip\18-forkify\src\sass\_searchResults.scss134068505908172112 0
 113C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\utils\test\collection.test.js134068629988595020 0
 112C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\ordered-binary\assets\powers-dre.png134068629970439495 0
+117C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@swc\helpers\src\_non_iterable_spread.mjs134068630000585392 0
+107C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\caniuse-lite\data\regions\TH.js134068630006543537 0
+75C:\Development\javascriptAldo101\javascript101strip\18-forkify\src\js\views134072196831239171 1
 120C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\transformer-postcss\src\constants.js134068629980198691 0
 82C:\Development\javascriptAldo101\javascript101strip\18-forkify\src\img\favicon.png134068505907584715 0
 114C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@swc\helpers\cjs\_write_only_error.cjs134068629983029467 0
 131C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\lightningcss\node_modules\detect-libc\lib\filesystem.js134068629969118947 0
 105C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@mischnic\json-sourcemap\dist134068629976908727 1
 99C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\node-releases\README.md134068629969414103 0
-113C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\transformer-babel\lib\flow.js134068629982289431 0
-116C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\caniuse-lite\data\features\css-canvas.js134068629985149015 0
-93C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\get-port\index.js134068629968668891 0
-111C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\transformer-postcss\LICENSE134068629979924594 0
-94C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\chrome-trace-event134068629969304153 1
-94C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\json5\package.json134068629970379371 0
 112C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@swc\helpers\esm\_read_only_error.js134068629992272041 0
 88C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\caniuse-lite134068630008394242 1
 99C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\semver\classes\index.js134068629975953925 0
@@ -258,6 +260,17 @@
 123C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\transformer-image\src\validateConfig.js134068629981814045 0
 107C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\caniuse-lite\data\regions\KY.js134068630001649008 0
 125C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest3.c134068629981264035 0
+113C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\transformer-babel\lib\flow.js134068629982289431 0
+116C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\caniuse-lite\data\features\css-canvas.js134068629985149015 0
+93C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\get-port\index.js134068629968668891 0
+111C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\transformer-postcss\LICENSE134068629979924594 0
+94C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\chrome-trace-event134068629969304153 1
+94C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\json5\package.json134068629970379371 0
+129C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\react-refresh\cjs\react-refresh-runtime.production.js134068629972180054 0
+81C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\clone134068629969304153 1
+107C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\caniuse-lite\data\regions\LT.js134068630002089131 0
+125C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@swc\helpers\cjs\_initializer_define_property.cjs134068629978279418 0
+93C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\tslib\LICENSE.txt134068629970509359 0
 85C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\.bin\sass134068632188014991 0
 95C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@swc\core\util.d.ts134068629973301281 0
 109C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\update-browserslist-db\index.d.ts134068629969594122 0
@@ -362,9 +375,6 @@
 125C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\caniuse-lite\data\features\css-backdrop-filter.js134068629984668163 0
 130C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb.c134068629978869396 0
 96C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\postcss-value-parser134068629969604133 1
-94C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@lezer\common\dist134068629975303978 1
-107C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\caniuse-lite\data\regions\BZ.js134068629979744652 0
-89C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\react-refresh134068629972510056 1
 106C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@swc\helpers\_\_async_iterator134068629993956188 1
 84C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\readdirp134068632184950354 1
 107C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\type-fest\source\utilities.d.ts134068629973761261 0
@@ -510,11 +520,11 @@
 120C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\utility-types\dist\functional-helpers.js.map134068629969924145 0
 105C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\utility-types\dist\index.d.ts134068629970949355 0
 96C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\safe-buffer\index.js134068629968478849 0
-109C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\postcss-value-parser\lib\index.js134068629968518863 0
 89C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\.bin\sass.ps1134068632188014991 0
 121C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\msgpackr-extract\node_modules\detect-libc\lib134068629969234097 1
 123C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\caniuse-lite\data\features\css-text-box-trim.js134068629994151527 0
 125C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\msgpackr-extract\node_modules\detect-libc\LICENSE134068629968188852 0
+109C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\postcss-value-parser\lib\index.js134068629968518863 0
 119C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\core\lib\requests\PackageRequest.js134068629994911508 0
 107C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\utility-types\dist\index.js.map134068629970054168 0
 103C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\to-regex-range\package.json134068629968118730 0
@@ -622,7 +632,7 @@
 101C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@lezer\lr\dist\index.d.ts134068629975713960 0
 123C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@swc\helpers\_\_object_without_properties_loose134068629997160538 1
 116C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\type-fest\source\conditional-except.d.ts134068629970024225 0
-85C:\Development\javascriptAldo101\javascript101strip\18-forkify\dist\logo.726d37a8.png134070417068011101 0
+85C:\Development\javascriptAldo101\javascript101strip\18-forkify\dist\logo.726d37a8.png134072170525011147 0
 101C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\codeframe\LICENSE134068629972969931 0
 103C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\workers\lib\process134068629978519377 1
 111C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\lmdb\dependencies\lz4\lib\lz4file.c134068629976648729 0
@@ -1143,6 +1153,7 @@
 93C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\react-refresh\cjs134068629972149960 1
 97C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\react-refresh\LICENSE134068629971194691 0
 99C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\react-refresh\README.md134068629972529972 0
+90C:\Development\javascriptAldo101\javascript101strip\18-forkify\dist\18-forkify.4a59a05f.js134072199688640498 0
 100C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\fs\src\NodeFS.js134068629989740405 0
 124C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest.c134068629980818682 0
 111C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\caniuse-lite\data\regions\alt-as.js134068629971174624 0
@@ -1451,7 +1462,6 @@
 97C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\chokidar\package.json134068632186044965 0
 107C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\caniuse-lite\data\regions\SA.js134068630005053031 0
 84C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\lmdb\src134068629984628175 1
-124C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@swc\helpers\_\_array_like_to_array\package.json134068629993666134 0
 100C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\packager-css\src134068629984168343 1
 85C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\lmdb\util134068629990475760 1
 91C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\globals\license134068629968178903 0
@@ -1613,7 +1623,7 @@
 102C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@swc\helpers\_\_instanceof134068629996365099 1
 130C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\midl-sparse.c134068629979964647 0
 111C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\caniuse-lite\data\features\mpeg4.js134068630002804305 0
-95C:\Development\javascriptAldo101\javascript101strip\18-forkify\dist\18-forkify.f7626f62.css.map134070398204860456 0
+95C:\Development\javascriptAldo101\javascript101strip\18-forkify\dist\18-forkify.f7626f62.css.map134072170525588709 0
 98C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\is-number\package.json134068629968103624 0
 123C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\caniuse-lite\data\features\loading-lazy-attr.js134068630002019136 0
 125C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\module.h134068629985949255 0
@@ -1815,8 +1825,6 @@
 103C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\dotenv-expand\lib\main.d.ts134068629974632877 0
 92C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\dotenv\config.js134068629975293950 0
 92C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\dotenv\README.md134068629976368709 0
-111C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\runtime-browser-hmr\LICENSE134068629982429433 0
-94C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\dotenv\SECURITY.md134068629976498742 0
 122C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\core\lib\requests\AssetGraphRequest.js134068629992061222 0
 127C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\runtime-js\lib\helpers\browser\js-loader.js134068629983805002 0
 96C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\dotenv\lib\main.d.ts134068629976668728 0
@@ -2074,8 +2082,6 @@
 107C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\caniuse-lite\data\regions\TD.js134068630006283495 0
 132C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\core\test\fixtures\invalid-target-source-missing134068629998835887 1
 107C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\caniuse-lite\data\regions\TG.js134068630006523507 0
-117C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@swc\helpers\src\_non_iterable_spread.mjs134068630000585392 0
-107C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\caniuse-lite\data\regions\TH.js134068630006543537 0
 107C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\caniuse-lite\data\regions\TJ.js134068630006563497 0
 107C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\caniuse-lite\data\regions\TM.js134068630006653557 0
 107C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\caniuse-lite\data\regions\TR.js134068630006723531 0
@@ -2489,8 +2495,6 @@
 130C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\package-manager\test\fixtures\packages\foo-2.0134068629991831181 1
 109C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\caniuse-lite\data\features\rem.js134068630004783777 0
 121C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\caniuse-lite\data\features\resource-timing.js134068630004873874 0
-126C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@swc\helpers\esm\_class_private_field_loose_key.js134068629985869012 0
-132C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\caniuse-lite\data\features\same-site-cookie-attribute.js134068630005072948 0
 124C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\caniuse-lite\data\features\screen-orientation.js134068630005122950 0
 113C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\transformer-json\package.json134068629988375054 0
 128C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@swc\helpers\_\_interop_require_default\package.json134068629996455108 0
@@ -2583,7 +2587,7 @@
 99C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\braces\lib\constants.js134068629968678886 0
 99C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\braces\lib\stringify.js134068629969514095 0
 95C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\braces\lib\utils.js134068629969624182 0
-86C:\Development\javascriptAldo101\javascript101strip\18-forkify\dist\icons.21bad73c.svg134070398204274699 0
+86C:\Development\javascriptAldo101\javascript101strip\18-forkify\dist\icons.21bad73c.svg134072170525216509 0
 105C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\baseline-browser-mapping\dist134068629970024225 1
 110C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\utils\src\openInBrowser.js134068629992792167 0
 112C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\baseline-browser-mapping\LICENSE.txt134068629970159385 0
@@ -2606,8 +2610,8 @@
 101C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@swc\types\assumptions.js134068629970869364 0
 92C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@swc\helpers\esm134068629993413114 1
 115C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\transformer-babel\lib\babel7.js134068629981344010 0
-101C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@swc\helpers\package.json134068629998915865 0
 124C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@swc\helpers\_\_array_without_holes\package.json134068629993756234 0
+101C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@swc\helpers\package.json134068629998915865 0
 96C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@swc\helpers\_\index134068629998845891 1
 108C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@swc\helpers\_\_array_with_holes134068629993716224 1
 123C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@swc\helpers\src\_object_without_properties.mjs134068630000675354 0
@@ -2702,6 +2706,7 @@
 138C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\core\test\fixtures\custom-targets-distdir\package.json134068629998525888 0
 129C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@swc\helpers\_\_async_generator_delegate\package.json134068629993846219 0
 121C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@swc\helpers\_\_array_with_holes\package.json134068629993726195 0
+124C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@swc\helpers\_\_array_like_to_array\package.json134068629993666134 0
 113C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\transformer-node\package.json134068629980168677 0
 122C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@swc\helpers\_\_apply_decs_2203_r\package.json134068629993623140 0
 109C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@swc\helpers\_\index\package.json134068629998865940 0
@@ -3336,7 +3341,6 @@
 120C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\reporter-dev-server\src\HMRServer.js134068629987659775 0
 121C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\reporter-dev-server\src\NodeRunner.js134068629987809835 0
 123C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\reporter-dev-server\src\serverErrors.js134068629988405097 0
-117C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\reporter-dev-server\src\templates134068629987309767 1
 121C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\reporter-dev-server\src\types.js.flow134068629986994569 0
 126C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\reporter-dev-server\src\templates\404.html134068629987239854 0
 126C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\reporter-dev-server\src\templates\500.html134068629987319769 0
@@ -3410,7 +3414,7 @@
 133C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\package-manager\test\fixtures\packages\a\index.js134068629987969774 0
 101C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\error-overlay\src134068629977814116 1
 134C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\package-manager\test\fixtures\has-foo\node_modules134068629987669797 1
-91C:\Development\javascriptAldo101\javascript101strip\18-forkify\dist\18-forkify.f7626f62.css134070398204274699 0
+91C:\Development\javascriptAldo101\javascript101strip\18-forkify\dist\18-forkify.f7626f62.css134072170525406469 0
 138C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\package-manager\test\fixtures\has-foo\node_modules\foo134068629991451166 1
 150C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\package-manager\test\fixtures\has-a-not-yet-installed\package.json134068629991391191 0
 132C:\Development\javascriptAldo101\javascript101strip\18-forkify\node_modules\@parcel\package-manager\test\fixtures\empty\package.json134068629991301146 0
@@ -3706,6 +3710,8 @@
 95C:\Development\javascriptAldo101\javascript101strip\18-forkify\final\src\js\views\recipeView.js134068505906037033 0
 95C:\Development\javascriptAldo101\javascript101strip\18-forkify\final\src\js\views\searchView.js134068505906152170 0
 88C:\Development\javascriptAldo101\javascript101strip\18-forkify\final\src\img\favicon.png134068505905089579 0
+94C:\Development\javascriptAldo101\javascript101strip\18-forkify\dist\18-forkify.4a59a05f.js.map134072199688690733 0
 90C:\Development\javascriptAldo101\javascript101strip\18-forkify\dist\18-forkify.62406edb.js134070403502207250 0
-88C:\Development\javascriptAldo101\javascript101strip\18-forkify\dist\favicon.8b2f57bf.png134070369780568625 0
-78C:\Development\javascriptAldo101\javascript101strip\18-forkify\dist\index.html134070369780768621 0
+88C:\Development\javascriptAldo101\javascript101strip\18-forkify\dist\favicon.8b2f57bf.png134072167617818598 0
+86C:\Development\javascriptAldo101\javascript101strip\18-forkify\dist\icons.0809ef97.svg134072170525578477 0
+78C:\Development\javascriptAldo101\javascript101strip\18-forkify\dist\index.html134072170525186488 0
