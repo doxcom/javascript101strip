@@ -12,19 +12,22 @@ export const loadRecipe = async function (id) {
      const data = await res.json();
 
     if(!res.ok) throw new Error(`${data.message} (${res.status})`);
-
+   console.log("FULL api response data", data);
+   console.log("Recipe object:", data.recipe);
     const { recipe } = data;
      state.recipe = {
-      id: recipe.id,
+      recipe_id: recipe.recipe_id,
       title: recipe.title,
-      publisher: recipe.publisher,
-      sourceUrl: recipe.sourceUrl,
-      image: recipe.image,
+      publisher: recipe.publisher_url,
+      sourceUrl: recipe.source_url,
+      image: recipe.image_url,
       servings: recipe.servings,
       cookingTime: recipe.cookingTime,
-      ingredients: recipe.ingredients, 
+      ingredients:recipe.ingredients, 
+    
     };
-    console.log(state.recipe);  
+
+
    }catch(err){
     alert(err);
    }
