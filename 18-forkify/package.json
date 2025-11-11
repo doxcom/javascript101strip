@@ -16,5 +16,9 @@
   },
   "targets": {
     "main": false
+  },
+  "dependencies": {
+    "fraction.js": "^5.3.4",
+    "fractional": "^1.0.0"
   }
 }
